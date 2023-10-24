@@ -77,3 +77,9 @@ footer{
 }
 
 
+/*clase de resaltado para ver en el dom*/
+.resaltar {
+    background-color:chartreuse ;
+    font-size: 20px;
+    border: 5px dashed orange;
+}
