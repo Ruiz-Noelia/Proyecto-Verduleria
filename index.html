@@ -72,13 +72,17 @@
       
     <div class="flex-contenedor">
       <aside>
-        <h2>Hola, soy un aside secundario</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nobis
-          laboriosam suscipit molestiae error aperiam sit sed, voluptatem
-          placeat, minima, alias voluptates consequuntur provident quo. Minima
-          maiores harum labore delectus?
-        </p>
+        <h3>Dejanos tu mensaje</h3>
+        <fieldset style="max-width: 20%;">
+          <legend>Formulario de contacto</legend>
+          <form action="https://formspree.io/f/xpzgyvra" method="post">
+              Nombre <input type="text" placeholder="Ingresá tu nombre" name="nombre" required>
+              <br>
+              Email <input type="email" placeholder="Ingresá tu email" name="email" required>
+              <br> Mensaje <br><textarea name="mensaje" cols="8" rows="5" required></textarea>
+             <button>Enviar</button>
+          </form>
+      </fieldset>
       </aside>
 
       <section>
@@ -92,7 +96,7 @@
       </section>
     </div>
     <footer id="contacto">
-      <h2>Hola, soy el footer de la página</h2>
+      <p>© Developed by Noelia Ruiz - comisión 54 - BAM - 2023</p>
     </footer>
 
       <!--Botón para capturar el evento del usuario-->
