@@ -84,3 +84,7 @@ footer{
     font-size: 20px;
     border: 5px dashed orange;
 }
+
+h2{
+    text-align: center;
+}
